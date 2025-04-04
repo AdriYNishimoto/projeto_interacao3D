@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#fileInput {
+    font-size: 16px;
+}
+
+#brightness {
+    width: 200px;
+}
+
+label {
+    font-size: 16px;
+}
+
+#canvasContainer {
+    width: 100%;
+    flex-grow: 1;
+}
